@@ -1,13 +1,13 @@
 export const DefaultChainInfo = {
     counterpartyChainId: process.env.CHAIN_ID,
     chainName: process.env.REACT_APP_CHAIN_NAME,
-    prefix: "mantle",
+    prefix: "chronic",
     ledgerAppName: "cosmos",
     currency: {
-        coinDenom: '$MNTL',
-        coinMinimalDenom: 'umntl',
+        coinDenom: '$CGAS',
+        coinMinimalDenom: 'CGAS',
         coinDecimals: 6,
-        coinGeckoId: 'assetmantle',
+        coinGeckoId: '',
     },
     coinType: 118,
     uTokenValue:1000000,
